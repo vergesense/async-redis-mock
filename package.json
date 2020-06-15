@@ -26,16 +26,9 @@
     "async",
     "redis",
     "mock",
+    "test",
     "async-redis",
-    "async redis",
-    "redis-mock",
-    "redis mock",
-    "async-redis-mock",
-    "async redis mock",
-    "async redis test",
-    "redis test",
-    "redis testing",
-    "async redis testing"
+    "redis-mock"
   ],
   "contributors": [
     "fcwheat (Carter) <f.c.wheatley@gmail.com>",
