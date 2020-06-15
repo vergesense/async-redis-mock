@@ -1,6 +1,6 @@
 {
   "name": "async-redis-mock",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Async Redis client mock object for unit testing",
   "main": "index.js",
   "author": "VergeSense Engineering",
