@@ -1,0 +1,40 @@
+{
+  "name": "async-redis-mock",
+  "version": "0.1.0",
+  "description": "Async Redis client mock object for unit testing",
+  "main": "index.js",
+  "author": "VergeSense Engineering",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vergesense/async-redis-mock"
+  },
+  "scripts": {
+    "test": "tap test.js"
+  },
+  "dependencies": {
+    "promisfy": "^1.2.0",
+    "redis-mock": "^0.49.0"
+  },
+  "devDependencies": {
+    "tap": "^14.10.7",
+    "eslint": "^6.2.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  },
+  "keywords": [
+    "async",
+    "redis",
+    "mock",
+    "test",
+    "async-redis",
+    "redis-mock"
+  ],
+  "contributors": [
+    "fcwheat (Carter) <f.c.wheatley@gmail.com>",
+    "WillHalto (Will) <william.o.haltom@gmail.com>"
+  ],
+  "bugs": {
+    "url": "https://github.com/vergesense/async-redis-mock/issues"
+  }
+}
