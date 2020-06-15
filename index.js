@@ -1,11 +1,11 @@
 const redis = require('redis-mock');
-const { promisfy } = require('promisfy');
+const rewire = require('rewire');
 
-const redisClient = redis.createClient();
+const asyncRedis = rewire('async-redis');
 
-redisClient.set = promisfy(redisClient.set);
-redisClient.get = promisfy(redisClient.get);
+// eslint-disable-next-line no-underscore-dangle
+asyncRedis.__set__({
+  redis,
+});
 
-module.exports = {
-  createClient: () => redisClient,
-};
+module.exports = asyncRedis;
