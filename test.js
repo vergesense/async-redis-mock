@@ -6,7 +6,7 @@ const redis = require('./index');
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 tap.test('createClient', async (t) => {
-  let client = redis.createClient();
+  const client = redis.createClient();
   t.type(client, 'AsyncRedis');
   t.end();
 });
